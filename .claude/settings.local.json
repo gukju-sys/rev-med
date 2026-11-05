@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v python)",
+      "Bash(command -v py)",
+      "Bash(command -v node)",
+      "Bash(command -v npx)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\Owner\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Owner-Desktop-----\\\\ae8b0f3e-0672-4116-b04a-afd8b2b5d836\\\\scratchpad\\\\server.ps1\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{size_download}\\\\n\" http://localhost:8756/index.html)",
+      "Bash(curl -s http://localhost:8756/index.html)",
+      "Bash(curl -s -o /dev/null -w \"index: %{http_code} %{size_download}B\\\\n\" http://localhost:8756/index.html)",
+      "Bash(curl -s -o /dev/null -w \"css: %{http_code}\\\\n\" http://localhost:8756/css/style.css)",
+      "Bash(curl -s -o /dev/null -w \"js: %{http_code}\\\\n\" http://localhost:8756/js/main.js)"
+    ]
+  }
+}

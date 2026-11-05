@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 개발/내부 파일은 검색 노출 제외
+Disallow: /apps-script/
+Disallow: /.claude/
+Disallow: /clinic-sheet-template.csv
+
+Sitemap: https://unicell.kr/sitemap.xml

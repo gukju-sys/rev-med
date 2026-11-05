@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>도입 문의 — PRP Uni</title>
+  <meta name="description" content="PRP Uni 세포치료 도입 문의. 의료기관 정보를 남겨주시면 도입 절차와 프로토콜 교육을 안내해 드립니다.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><span class="dot"></span>PRP&nbsp;<em>Uni</em></a>
+    <nav class="gnb">
+      <a href="index.html#indications">적응증</a>
+      <a href="index.html#how">치료 과정</a>
+      <a href="index.html#why">브랜드 소개</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="consult.html">도입 문의</a>
+    <button class="nav-toggle" aria-label="메뉴 열기"><span></span></button>
+  </div>
+</header>
+
+<section class="hero hero-sub">
+  <p class="crumb"><a href="index.html">홈</a> · 도입 문의</p>
+  <h1>PRP Uni 도입 문의</h1>
+  <p class="lead">의료기관 정보를 남겨주시면 담당자가 영업일 기준 1일 이내에 도입 절차를 안내해 드립니다.</p>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="form-wrap">
+      <form id="consult-form" novalidate>
+        <div class="form-row" data-required>
+          <label>의료기관명 <span class="req">*</span></label>
+          <input type="text" name="hospital" placeholder="OO정형외과의원" autocomplete="organization">
+          <p class="form-error">의료기관명을 입력해 주세요.</p>
+        </div>
+
+        <div class="form-row" data-required>
+          <label>담당자명 <span class="req">*</span></label>
+          <input type="text" name="name" placeholder="홍길동" autocomplete="name">
+          <p class="form-error">담당자명을 입력해 주세요.</p>
+        </div>
+
+        <div class="form-row" data-required>
+          <label>연락처 <span class="req">*</span></label>
+          <input type="tel" name="phone" placeholder="010-0000-0000 / 02-000-0000" autocomplete="tel">
+          <p class="form-error">올바른 연락처를 입력해 주세요.</p>
+        </div>
+
+        <div class="form-row">
+          <label>이메일</label>
+          <input type="email" name="email" placeholder="example@email.com" autocomplete="email">
+        </div>
+
+        <div class="form-row" data-required>
+          <label>관심 적응증 <span class="req">*</span></label>
+          <select name="topic">
+            <option value="">선택해 주세요</option>
+            <option value="plantar">족저근막염</option>
+            <option value="rotator">회전근개건병증</option>
+            <option value="knee">무릎 골관절염</option>
+            <option value="epicondylitis">상과염 (테니스·골프 엘보)</option>
+            <option value="olfactory">후각기능</option>
+            <option value="eye">자가 PRP 안약치료</option>
+            <option value="endometrium">난치성 얇은 자궁내막</option>
+            <option value="etc">전체 / 기타</option>
+          </select>
+          <p class="form-error">관심 적응증을 선택해 주세요.</p>
+        </div>
+
+        <div class="form-row">
+          <label>의료기관 소재지</label>
+          <select name="region">
+            <option value="">선택해 주세요 (선택)</option>
+            <option>서울</option><option>경기</option><option>인천</option>
+            <option>부산</option><option>대구</option><option>대전</option>
+            <option>광주</option><option>기타</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label>문의 내용</label>
+          <textarea name="message" placeholder="예) 정형외과 의원입니다. PRP Uni 도입 절차와 프로토콜 교육 과정이 궁금합니다."></textarea>
+        </div>
+
+        <div class="form-row">
+          <label class="form-check">
+            <input type="checkbox" name="privacy_agree" value="Y">
+            <span>[필수] 개인정보 수집·이용에 동의합니다. 수집 항목: 의료기관명, 담당자명, 연락처, 이메일, 문의 내용 /
+            이용 목적: 도입 문의 응대 및 안내 / 보유 기간: 상담 완료 후 6개월
+            <!-- [법무 검토 필요] 개인정보처리방침 전문 링크 연결 및 문구 검토 필요 --></span>
+          </label>
+          <p class="form-error">개인정보 수집·이용에 동의해 주세요.</p>
+        </div>
+
+        <!-- UTM 추적 hidden 필드 — js/main.js 가 sessionStorage 값을 자동 주입 -->
+        <input type="hidden" name="utm_source">
+        <input type="hidden" name="utm_medium">
+        <input type="hidden" name="utm_campaign">
+        <input type="hidden" name="utm_term">
+        <input type="hidden" name="utm_content">
+        <input type="hidden" name="landing_page">
+        <input type="hidden" name="landing_ts">
+
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">도입 문의하기</button>
+
+        <p class="quiz-disclaimer">
+          남겨주신 정보는 PRP Uni 도입 상담 목적으로만 사용됩니다.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h5>PRP Uni</h5>
+        <p>상호명: (주)레보메드 | 대표자: 신봉근<br>
+        사업장주소: 경기도 용인시 수지구 고기로 437 RM SQUARE 4층<br>
+        연락처: 031-741-0996 | 사업자등록번호: 120-87-36012<br>
+        대표자 이메일: revmedweb@rev-med.co.kr</p>
+      </div>
+      <div>
+        <h5>적응증 안내</h5>
+        <ul>
+          <li><a href="plantar-fasciitis.html">족저근막염</a></li>
+          <li><a href="rotator-cuff.html">회전근개건병증</a></li>
+          <li><a href="knee-osteoarthritis.html">무릎 골관절염</a></li>
+          <li><a href="epicondylitis.html">상과염</a></li>
+          <li><a href="olfactory.html">후각기능</a></li>
+          <li><a href="prp-eye-drops.html">자가 PRP 안약치료</a></li>
+          <li><a href="endometrium.html">난치성 얇은 자궁내막</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>바로가기</h5>
+        <ul>
+          <li><a href="consult.html">도입 문의</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- [법무 검토 필요] 게재 전 의료법 제56조 및 의료광고 심의 기준 검토 필요 -->
+    <div class="footer-legal">
+      <p><strong>의료광고 관련 고지</strong></p>
+      <p>· 본 웹사이트의 내용은 의학적 정보 제공을 목적으로 하며, 특정 치료 효과를 보증하지 않습니다.</p>
+      <p>· 치료 결과는 개인의 상태에 따라 다를 수 있으며, 시술 여부는 반드시 의료기관에서 전문의와 상담 후 결정하시기 바랍니다.</p>
+      <p>· 모든 의료 시술에는 부작용이 발생할 수 있으므로 시술 전 충분한 설명을 들으시기 바랍니다.</p>
+      <p style="margin-top:14px">© 2026 PRP Uni. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/clinics-data.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>
