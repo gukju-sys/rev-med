@@ -1,0 +1,39 @@
+/* Header sizing belongs here, independently of page content styles.
+   Keep each page's configuration separate so one page can be tuned alone. */
+body.design-page.unicell-design{--header-h:80px}
+body.design-page.prp-design{--header-h:80px}
+body.design-page.cell-design{--header-h:80px}
+
+.design-page .site-header{height:var(--header-h);background:#fff;border:0}
+.design-page .header-inner{height:100%;padding:0 3%;gap:24px}
+.design-page .logo{gap:24px;flex-shrink:0}
+.design-page .logo img{width:66px;height:56px;object-fit:contain}
+.design-page .logo span{font-size:14px;padding-left:24px;line-height:24px}
+.design-page .gnb{gap:80px}
+.design-page .gnb a{font-size:16px;line-height:24px}
+.design-page .gnb a:after{height:1px;bottom:-8px}
+.design-page .header-cta.kakao-channel{height:44px;min-height:44px;padding:7px 17px 7px 11px;gap:10px;font-size:14px}
+.design-page .kakao-channel .kakao-talk{width:29px;height:26px;font-size:9px}
+.design-page .kakao-channel .kakao-divider{height:22px}
+.design-page .kakao-channel .kakao-chevron{width:8px;height:8px;border-width:1px;margin:0 3px}
+
+@media(max-width:1200px) and (min-width:761px){
+ .design-page .gnb{gap:45px}
+ .design-page .logo{gap:18px}
+ .design-page .logo span{padding-left:18px}
+}
+@media(max-width:760px){
+ body.design-page.unicell-design{--header-h:68px}
+ body.design-page.prp-design{--header-h:68px}
+ body.design-page.cell-design{--header-h:68px}
+ .design-page .header-inner{padding:0 18px;gap:14px}
+ .design-page .logo{gap:10px}
+ .design-page .logo img{width:43px;height:40px}
+ .design-page .logo span{font-size:10px;padding-left:10px;line-height:16px}
+ .design-page .gnb{top:var(--header-h);gap:22px}
+ .design-page .gnb a{font-size:15px}
+ .design-page .header-cta.kakao-channel{height:36px;min-height:36px;padding:6px 11px 6px 8px;gap:7px;font-size:12px}
+ .design-page .kakao-channel .kakao-talk{width:24px;height:22px;font-size:8px}
+ .design-page .kakao-channel .kakao-divider{height:17px}
+ .design-page .kakao-channel .kakao-chevron{width:7px;height:7px;margin-left:0;margin-right:2px}
+}
