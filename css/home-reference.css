@@ -1,0 +1,70 @@
+/* Updated UNICELL reference. Scoped to the home page. */
+
+.unicell-design .collection-hero{min-height:0;height:780px;grid-template-columns:42% 58%;background:linear-gradient(115deg,#f3edf1,#faf5f4)}
+.unicell-design .collection-copy{padding:60px 0 60px 12%;margin-right:-30px}
+.unicell-design .collection-copy h1{font-size:110px;margin:20px 0}
+.unicell-design .collection-copy h2{font-size:40px;line-height:1.3}
+.unicell-design .collection-copy h2 em{color:inherit}
+.unicell-design .collection-copy p{font-size:23px;line-height:1.55;margin:22px 0 32px}
+.unicell-design .collection-art{object-fit:cover;mix-blend-mode:normal;mask-image:linear-gradient(to right,transparent,#000 8%)}
+.unicell-design .small-eyebrow{font-size:14px;letter-spacing:.13em}
+.unicell-design .kit-section{padding-top:90px;padding-bottom:60px}
+.unicell-design .kit-section h2{font-size:70px}
+.unicell-design .kit-section .section-label{font-size:25px}
+.unicell-design .kit-section .center-heading p{font-size:25px;line-height:1.5;margin-top:30px;font-weight:500}
+.unicell-design .kit-section>img{width:76%;max-width:1460px;margin:55px auto 0}
+.unicell-design .why-unicell{background:#fff}
+.unicell-design .why-intro{padding:90px 7.3% 220px;min-height:890px;position:relative}
+.unicell-design .why-intro:after{content:'';position:absolute;bottom:0;left:0;right:0;height:370px;background:url('../assets/design/intro-ribbon.webp') center bottom/100% 100% no-repeat;pointer-events:none}
+.unicell-design .why-intro .line-label{font-size:35px;letter-spacing:0;gap:40px}
+.unicell-design .line-label:after{background:var(--orange)}
+.unicell-design .why-intro h2{font-size:74px}
+.unicell-design .why-intro h2 em{color:inherit}
+.unicell-design .why-intro p{font-size:30px;line-height:1.8;margin-top:65px}
+.unicell-design .value-row{min-height:1050px;padding:70px 10% 210px;grid-template-columns:1fr 1fr;gap:70px}
+.unicell-design .value-row:first-of-type:after{content:'';position:absolute;left:0;right:0;bottom:0;height:400px;background:url('../assets/design/care-ribbon.webp') center bottom/100% 100% no-repeat;pointer-events:none}
+.unicell-design .value-row img{width:100%;max-width:100%;max-height:670px;mix-blend-mode:multiply}
+.unicell-design .value-number{color:#161616;font-size:76px;gap:35px;line-height:1.2}
+.unicell-design .value-number:after{background:#333;width:90px;height:3px}
+.unicell-design .value-caption{font-size:30px;letter-spacing:.055em;color:var(--orange);margin:50px 0 35px}
+.unicell-design .value-copy h3{font-size:73px}
+.unicell-design .value-copy h3 em{color:inherit}
+.unicell-design .value-copy p{font-size:32px;line-height:1.65;margin-top:40px}
+.unicell-design .value-row.reverse{min-height:800px;padding:50px 10%;border-radius:0;background:#fff;gap:100px}
+.unicell-design .value-row.reverse .value-copy{padding-left:0}
+.unicell-design .value-row:last-child{min-height:810px;padding-bottom:110px}
+.unicell-design .product-collection{padding:75px 0 90px;background:#f5f2f6 url('../assets/design/products-orbit.webp') right top/50% auto no-repeat}
+.unicell-design .product-collection .wide-container{padding-inline:75px;max-width:1840px}
+.unicell-design .product-collection .line-label{font-size:20px;margin-bottom:20px;letter-spacing:.12em}
+.unicell-design .product-collection .line-label:after{width:120px}
+.unicell-design .product-collection h2{font-size:58px}
+.unicell-design .product-collection h2 em{color:inherit}
+.unicell-design .product-collection>.wide-container>p{font-size:20px;margin:25px 0 55px}
+.unicell-design .product-switch{margin:-40px 0 20px}
+.unicell-design .product-cards{gap:30px}
+.unicell-design .product-tile{grid-template-columns:43% 57%;padding:35px 30px 15px 0;gap:0;min-height:520px;overflow:hidden}
+.unicell-design .product-tile>img{height:450px;mix-blend-mode:multiply;object-fit:contain}
+.unicell-design .product-tile .small-eyebrow{font-size:18px;letter-spacing:.12em}
+.unicell-design .product-tile .small-eyebrow:before{content:'';width:45px;height:3px;background:var(--orange);display:block;margin-bottom:16px}
+.unicell-design .product-tile h3{font-size:59px;margin:12px 0 25px}
+.unicell-design .product-tile p{font-size:19px;line-height:1.6}
+.unicell-design .product-tile .btn{font-size:18px;padding:12px 25px}
+.unicell-design .product-collection+.product-collection{padding-top:75px}
+.unicell-design .product-collection+.product-collection .product-cards{margin-top:75px}
+.unicell-design .design-contact{padding:135px 25px 155px}
+.unicell-design .design-footer{min-height:560px}
+@media(max-width:1500px) and (min-width:761px){
+ .unicell-design .collection-hero{height:590px}.unicell-design .collection-copy h1{font-size:85px}.unicell-design .collection-copy h2{font-size:30px}.unicell-design .collection-copy p{font-size:17px}.unicell-design .collection-copy .btn{font-size:16px}.unicell-design .small-eyebrow{font-size:11px}
+ .unicell-design .kit-section{padding-top:65px}.unicell-design .kit-section h2{font-size:54px}.unicell-design .kit-section .center-heading p{font-size:19px}.unicell-design .kit-section .section-label{font-size:20px}.unicell-design .kit-section>img{margin-top:40px}
+ .unicell-design .why-intro{min-height:670px;padding-top:65px;padding-bottom:180px}.unicell-design .why-intro:after{height:280px}.unicell-design .why-intro .line-label{font-size:26px}.unicell-design .why-intro h2{font-size:55px}.unicell-design .why-intro p{font-size:23px;margin-top:45px}
+ .unicell-design .value-row{min-height:790px;padding:50px 10% 160px;gap:45px}.unicell-design .value-row:first-of-type:after{height:300px}.unicell-design .value-number{font-size:56px}.unicell-design .value-caption{font-size:22px;margin:35px 0 25px}.unicell-design .value-copy h3{font-size:53px}.unicell-design .value-copy p{font-size:24px;margin-top:30px}.unicell-design .value-row.reverse{min-height:600px;gap:75px}.unicell-design .value-row:last-child{min-height:610px;padding-bottom:80px}
+ .unicell-design .product-collection{padding-block:55px 65px}.unicell-design .product-collection .wide-container{padding-inline:55px}.unicell-design .product-collection h2{font-size:43px}.unicell-design .product-collection .line-label{font-size:15px}.unicell-design .product-collection>.wide-container>p{font-size:15px;margin:18px 0 45px}.unicell-design .product-tile{min-height:390px;padding:25px 20px 10px 0}.unicell-design .product-tile>img{height:335px}.unicell-design .product-tile h3{font-size:42px;margin-bottom:18px}.unicell-design .product-tile p{font-size:14px}.unicell-design .product-tile .small-eyebrow{font-size:13px}.unicell-design .product-tile .btn{font-size:13px;padding:10px 18px}.unicell-design .product-collection+.product-collection{padding-top:55px}.unicell-design .product-collection+.product-collection .product-cards{margin-top:55px}.unicell-design .design-footer{min-height:420px}
+}
+@media(max-width:760px){
+ .unicell-design .collection-hero{height:auto;display:flex}.unicell-design .collection-copy{padding:40px 24px 0;margin:0}.unicell-design .collection-copy h1{font-size:64px;margin:15px 0}.unicell-design .collection-copy h2{font-size:26px}.unicell-design .collection-copy p{font-size:15px;margin:20px 0 25px}.unicell-design .small-eyebrow{font-size:10px}.unicell-design .collection-art{mask-image:linear-gradient(to bottom,transparent,#000 10%);height:auto;max-height:350px;object-fit:contain}.unicell-design .kit-section{padding:55px 0 20px}.unicell-design .kit-section h2{font-size:30px}.unicell-design .kit-section .section-label{font-size:14px}.unicell-design .kit-section .center-heading p{font-size:14px;margin-top:20px}.unicell-design .kit-section>img{width:100%;margin-top:30px;height:auto}
+ .unicell-design .why-intro{padding:60px 24px 140px;min-height:370px}.unicell-design .why-intro .line-label{font-size:16px;gap:20px}.unicell-design .why-intro h2{font-size:30px}.unicell-design .why-intro p{font-size:14px;margin-top:25px}.unicell-design .why-intro:after{height:110px}
+ .unicell-design .value-row{min-height:425px;padding:30px 24px 90px;gap:16px;grid-template-columns:1fr 1fr}.unicell-design .value-number{font-size:31px;gap:15px}.unicell-design .value-number:after{width:38px;height:2px}.unicell-design .value-caption{font-size:10px;margin:22px 0 16px}.unicell-design .value-copy h3{font-size:28px}.unicell-design .value-copy p{font-size:13px;margin-top:20px}.unicell-design .value-row img{width:115%;max-width:115%}.unicell-design .value-row:first-of-type:after{height:100px}.unicell-design .value-row.reverse{min-height:365px;padding:25px 24px;gap:20px}.unicell-design .value-row.reverse img{margin-left:-8%}.unicell-design .value-row:last-child{min-height:365px;padding-bottom:45px}
+ .unicell-design .product-collection{padding:45px 0;background-size:70% auto}.unicell-design .product-collection .wide-container{padding-inline:20px}.unicell-design .product-collection .line-label{font-size:11px;margin-bottom:15px}.unicell-design .product-collection .line-label:after{width:60px}.unicell-design .product-collection h2{font-size:28px}.unicell-design .product-collection>.wide-container>p{font-size:12px;margin:15px 0 22px}.unicell-design .product-switch{margin:0 0 20px}.unicell-design .product-tile{min-height:260px;padding:20px 18px 15px 0}.unicell-design .product-tile>img{height:230px}.unicell-design .product-tile .small-eyebrow{font-size:10px}.unicell-design .product-tile .small-eyebrow:before{width:25px;height:2px;margin-bottom:12px}.unicell-design .product-tile h3{font-size:30px;margin:8px 0 15px}.unicell-design .product-tile p{font-size:12px}.unicell-design .product-tile .btn{font-size:11px;padding:9px 14px}.unicell-design .product-collection+.product-collection{padding-top:40px}.unicell-design .product-collection+.product-collection .product-cards{margin-top:25px}.unicell-design .design-contact{padding:75px 22px}.unicell-design .design-footer{min-height:300px}
+}
+
+
